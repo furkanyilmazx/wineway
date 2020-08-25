@@ -1,0 +1,24 @@
+.product-info-row {
+  display: flex;
+  border-bottom: 0.3px solid #d9d9d9;
+}
+.product-info-param {
+  background-color: #e8e8e8;
+  padding: 5px 12px;
+  flex: 1;
+  font-weight: 600;
+}
+.product-info-value {
+  flex: 1;
+  padding: 4px 12px;
+}
+
+.product-info-table-container {
+  margin-top: 50px;
+}
+
+.product-info-table {
+  .product-info-row:last-child {
+    border-bottom: none;
+  }
+}

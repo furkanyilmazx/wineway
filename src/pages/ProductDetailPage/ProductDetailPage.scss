@@ -1,0 +1,100 @@
+.detail-page-container {
+  margin: 40px;
+  padding: 20px;
+
+  .content-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    .image-container {
+      img {
+        display: block;
+      }
+
+      .manufacturer-logo {
+        max-width: 172px;
+        height: auto;
+      }
+    }
+
+    .details-container {
+      border: 1px solid #eee;
+      padding: 20px;
+      flex: 1;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      max-width: 1024px;
+
+      .brand-name {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .product-name {
+        font-size: 16px;
+        color: #454545;
+        margin-top: 5px;
+      }
+
+      .product-prices {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        margin-top: 40px;
+
+        .product-prices-wrapper {
+          display: inline-flex;
+          flex-direction: column;
+          margin-right: 12px;
+
+          .product-price {
+            font-size: 24px;
+            font-weight: 800;
+          }
+          .product-old-price {
+            font-size: 20px;
+            text-decoration: line-through;
+            color: #959595;
+            font-weight: 400;
+            margin-bottom: 10px;
+            margin-top: 4px;
+          }
+        }
+      }
+
+      .tax-text {
+        text-align: right;
+        margin-top: 10px;
+        color: #959595;
+      }
+
+      .sell-buttons {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .buy-button {
+          width: 200px;
+          margin-left: 10px;
+        }
+      }
+
+      .product-categories {
+        flex: 1;
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+  }
+}
+
+body {
+  height: auto;
+}
+
+.back-button a {
+  color: black;
+}
